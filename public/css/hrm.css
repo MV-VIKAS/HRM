@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    rgba(84, 160, 204, 0.911),
+    rgba(255, 0, 0, 1)
+  );
+}
+
+.alert {
+  position: absolute;
+  top: 10%;
+  width: auto;
+  right: 1%;
+  margin: 3px;
+  z-index: 1;
+  transform: translate(1000px);
+  transition: ease all 0.4s;
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 1px green;
+  border-radius: 3px;
+  width: 325px;
+  text-align: center;
+}
+.alert-success {
+  background: #007000f2;
+
+  border-bottom: 3px solid green;
+}
+.alert-danger {
+  border-bottom: 2px solid red;
+  text-shadow: 1px 1px 1px rgb(128, 26, 0);
+}
+.sbutton{
+  margin: 10px;
+}
